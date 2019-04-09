@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans',serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    color:gray;
+}
+
+#photoHead {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+
+}
+
+#icon-contact {
+    width: 30px;
+    height: 30px;
+}
+a {
+    color:rgb(56, 55, 55);
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:navy;
+  }
+
+ a:active {
+    color: blue;
+  }
+  img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 1;
+    transition: box-shadow 0.3s ease-in-out;
+  }
