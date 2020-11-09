@@ -8,6 +8,22 @@ p {
   color: gray;
 }
 
+h1 {
+  color: gray;
+}
+
+h2 {
+color: #1d2d34;
+}
+
+dt {
+  color: black;
+  font-size: 26px;
+}
+dd {
+  color: gray;
+}
+
 #photoHead {
   width: 200px;
   height: 200px;
