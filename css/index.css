@@ -26,6 +26,7 @@ dd {
 
 li {
   color: gray;
+  align-items: center;
 }
 
 #photoHead {
