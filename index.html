@@ -6,43 +6,57 @@
     <title>Ynoa Pedro</title>
     <link rel="icon" type="image/png" href="./img/panda.png">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"/>
 </head>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        document.documentElement.setAttribute("data-theme", "light");
 
+        const themeSwitcher = document.getElementById("theme-switcher");
+
+        themeSwitcher.onclick = function () {
+            const currentTheme = document.documentElement.getAttribute("data-theme");
+            const switchToTheme = currentTheme === "dark" ? "light" : "dark";
+            document.documentElement.setAttribute("data-theme", switchToTheme);
+        }
+    });
+</script>
 <body>
-    <p>
-        <a href="https://github.com/ypedroo">
-            <img class="photoHead" id="photoHead" src="../img/logo.png"></a>
-    </p>
-    <p class="cabecalho" name="cabecalho">
-        🙋‍♂️Hey Everyone, Im Ynoa Pedro.
-    </p>
-    <p id="profession">
-        Software developer from Brazil.
-        <br />Currently hacking @ <a href="http://www.doneit.com.br/">Done IT</a> and  <a href="https://impulso.network/">Impulso Network</a>.
-    </p>
-    <p id="hobbies">
-        Im currently focused on backend using mainly the .Net and C# stack and React.js,
-        <br> im also experienced with Node.js. <br />
-        <br>  You are welcome to check my projects available on my <a href="https://github.com/ypedroo"> github</a> <br/>
-        Im also Casually writting about tech, work, life and tips on <a href="https://dev.to/ypedroo">
-            <img id="icon-devto" src="../icons/dev.to.png" alt="Ynoa Pedro's DEV Profile" style="padding-bottom: 0"></a> 
-    </p>
-    <p id="Resume">
-        And download my resume <a href="https://1drv.ms/b/s!AgCp-g2YgVHZruFk-AX4NgF3VXBVXA?e=iI2uQn">here</a>
-    </p>
-    <p id="Talks">
-        My talks are available <a href="https://speakerdeck.com/ypedroo">here</a>
-    </p>
+<button id="theme-switcher"><img id="theme-picker" src="../icons/icons8-day-and-night-50.png" alt="light/dark"></button>
+<p>
+    <a href="https://github.com/ypedroo">
+        <img class="photoHead" id="photoHead" src="../img/logo.png"></a>
+</p>
+<p class="cabecalho" name="cabecalho">
+    🙋‍♂️Hey Everyone, Im Ynoa Pedro.
+</p>
+<p id="profession">
+    Software developer from Brazil.
+    <br/>Currently hacking @ <a href="http://www.doneit.com.br/">Done IT</a> and <a href="https://impulso.network/">Impulso
+    Network</a>.
+</p>
+<p id="hobbies">
+    Im currently focused on backend using mainly the .Net and C# stack and React.js,
+    <br> im also experienced with Node.js. <br/>
+    <br> You are welcome to check my projects available on my <a href="https://github.com/ypedroo"> github</a> <br/>
+    Im also Casually writting about tech, work, life and tips on <a href="https://dev.to/ypedroo">
+    <img id="icon-devto" src="../icons/dev.to.png" alt="Ynoa Pedro's DEV Profile" style="padding-bottom: 0"></a>
+</p>
+<p id="Resume">
+    And download my resume <a href="https://1drv.ms/b/s!AgCp-g2YgVHZruFk-AX4NgF3VXBVXA?e=iI2uQn">here</a>
+</p>
+<p id="Talks">
+    My talks are available <a href="https://speakerdeck.com/ypedroo">here</a>
+</p>
 
-    <p id="contact">
-        Fell free to reach me on my social, or <a href="mailto:ynoa.pedro@outlook.com">mail me</a>
-    </p>
-    <div class="languages">
-        <p> Portuguese(Read, write and speak natively)</p>
-        <p> English(Read, write and speak fluently (self-taught))</p>
-        <p> Italian(Read, write and speak basic (self-taught))</p>
-    </div>
+<p id="contact">
+    Fell free to reach me on my social, or <a href="mailto:ynoa.pedro@outlook.com">mail me</a>
+</p>
+<div class="languages">
+    <p> Portuguese(Read, write and speak natively)</p>
+    <p> English(Read, write and speak fluently (self-taught))</p>
+    <p> Italian(Read, write and speak basic (self-taught))</p>
+</div>
 </body>
 <footer>
     <a class="git" href="https://github.com/ypedroo">
@@ -50,12 +64,11 @@
     <a href="https://www.linkedin.com/in/ynoapedro">
         <img id="icon-linkedin" src="../icons/icons8-linkedin-100-2.png" alt="linkedin icon"></a>
     <a href="https://twitter.com/ypedrolm">
-        <img id="icon-twitter" src="../icons/icons8-twitter-100-4.png" alt="twitter icon" /></a>
+        <img id="icon-twitter" src="../icons/icons8-twitter-100-4.png" alt="twitter icon"/></a>
     <a href="https://www.instagram.com/ypedrolm/">
         <img id="icon-instagram" src="../icons/icons8-instagram-500-4.png" alt="insta icon"></a>
     <a href="https://open.spotify.com/user/12149602493?si=Xul2gIedTdykrxT3SsbFCg">
         <img id="icon-spotify" src="../icons/icons8-spotify-100-2.png" alt="spotify icon">
     </a>
 </footer>
-
 </html>
